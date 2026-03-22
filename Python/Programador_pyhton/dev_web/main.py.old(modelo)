@@ -1,0 +1,31 @@
+#o primeito flask é o módulo
+#o segundo Flask é a calsse principal que importamos
+from flask import Flask, url_for, render_template
+
+#inicialização
+app = Flask(__name__)
+
+#rotas
+@app.route('/')
+def ola_mundo():
+    Titulo = "Gestão de Usuários"
+    Usuarios = [
+        {"nome": "Leonardo", "membro_ativo": True},
+        {"nome": "Rafael", "membro_ativo": False},
+        {"nome": "Maria", "membro_ativo": True}
+    ] 
+#o primerio parametro é a variável de contexto, a que usaremos no HTML, 
+#o segundo é o que criamos no backend
+    return render_template("index.html", titulo=Titulo, usuarios=Usuarios)
+ 
+
+@app.route('/sobre')
+def pag_sobre():
+   return '''
+    <b>Testando página sobre: Estamos na página sobre!!</b>    
+'''
+
+#modo desenvolvedor
+app.run(debug=True)
+
+
