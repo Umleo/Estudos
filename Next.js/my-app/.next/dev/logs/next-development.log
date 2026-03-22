@@ -1,0 +1,38 @@
+[00:00:00.919] Server  ERROR   ⨯ The file "./proxy.ts" must export a function, either as a default export or as a named "proxy" export.
+This function is what Next.js runs for every request handled by this proxy (previously called middleware).
+
+Why this happens:
+- You are migrating from `middleware` to `proxy`, but haven't updated the exported function.
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "proxy" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.013] Server  LOG     ✓ Ready in 813ms
+[00:00:14.793] Server  LOG     ✓ Compiled in 5ms
+[00:00:19.986] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.744] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
+[00:00:51.144] Server  LOG     ✓ Compiled in 3ms
+[00:00:52.717] Server  ERROR   ⨯ ReferenceError: alert is not defined
+[00:00:53.002] Server  ERROR   ⨯ ReferenceError: alert is not defined
+[00:00:53.190] Browser ERROR   uncaughtError: ReferenceError: alert is not defined
+[00:01:00.220] Server  LOG     ✓ Compiled in 4ms
+[00:01:00.360] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:27.614] Server  LOG     ✓ Compiled in 3ms
+[00:01:31.253] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:32.186] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:32.334] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:32.498] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:32.628] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:33.101] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
+[00:01:33.714] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:41.710] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:42.226] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:01:42.599] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
+[00:01:43.613] Server  LOG     Usuário não autenticado, redirecionando para a home.
+[00:02:04.859] Server  LOG     ✓ Compiled in 4ms
+[00:02:12.404] Server  LOG     ✓ Compiled in 6ms

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///home/leo/Estudos/Next.js/my-app/proxy.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\n\nexport function proxy(request: NextRequest) {\n    \n    //simulando autenticação\n    const authenticated = false\n    \n    if(request.nextUrl.pathname.startsWith('/posts_front') && !authenticated){\n        console.log(\"Usuário não autenticado, redirecionando para a home.\")\n        return NextResponse.redirect(new URL('/', request.url))\n    }\n  \n    return NextResponse.next();\n}"],"names":[],"mappings":";;;;AAAA;;AAEO,SAAS,MAAM,OAAoB;IAEtC,wBAAwB;IACxB,MAAM,gBAAgB;IAEtB,IAAG,QAAQ,OAAO,CAAC,QAAQ,CAAC,UAAU,CAAC,mBAAmB,CAAC,eAAc;QACrE,QAAQ,GAAG,CAAC;QACZ,OAAO,8IAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,KAAK,QAAQ,GAAG;IACzD;IAEA,OAAO,8IAAY,CAAC,IAAI;AAC5B"}}]
+}

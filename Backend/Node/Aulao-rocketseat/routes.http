@@ -1,0 +1,31 @@
+POST https://aulao-do-node.onrender.com/videos
+content-type: application/json
+
+{
+    "title": "Video node",
+    "description": "Esse é o terceiro vídeo node",
+    "duration": 180
+}
+
+
+###
+
+
+GET https://aulao-do-node.onrender.com/videos
+ 
+
+###
+
+PUT https://aulao-do-node.onrender.com/videos/31334bc9-a5f3-46e4-9c59-0dd6624d7d73
+content-type: application/json
+
+{
+    "title": "Primeira publicação através do render",
+    "description": "funcionou",
+    "duration": 1200
+}
+
+
+###
+
+DELETE https://aulao-do-node.onrender.com/videos/7f80cf55-cc74-44d5-966b-b8df0d1a7551

@@ -1,0 +1,36 @@
+{
+  "node": {
+    "0083c3448e04b7e688ff8598ae28438c0d56705454": {
+      "workers": {
+        "app/posts_back/page": {
+          "moduleId": 22802,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "app/posts_back/page.tsx"
+        }
+      },
+      "layer": {
+        "app/posts_back/page": "rsc"
+      },
+      "filename": "app/posts_back/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_0"
+    },
+    "405a61961a2a9e284b9969a66b127e5b34e54ebcbd": {
+      "workers": {
+        "app/posts_back/page": {
+          "moduleId": 22802,
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_1",
+          "filename": "app/posts_back/page.tsx"
+        }
+      },
+      "layer": {
+        "app/posts_back/page": "rsc"
+      },
+      "filename": "app/posts_back/page.tsx",
+      "exportedName": "$$RSC_SERVER_ACTION_1"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "k7hQEooyrcWa4SzL14+olJygg8ztVgbP9ndS0wTckTk="
+}

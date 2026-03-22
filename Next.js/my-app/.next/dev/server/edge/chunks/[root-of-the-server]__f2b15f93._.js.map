@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\n\nexport function middleware(request: NextRequest) {\n    \n    //simulando autenticação\n    const authenticated = false\n    \n    if(request.nextUrl.pathname.startsWith('/posts_front') && !authenticated){\n        return NextResponse.redirect(new URL('/', request.url))\n    }\n  \n    return NextResponse.next();\n}"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEO,SAAS,WAAW,OAAoB;IAE3C,wBAAwB;IACxB,MAAM,gBAAgB;IAEtB,IAAG,QAAQ,OAAO,CAAC,QAAQ,CAAC,UAAU,CAAC,mBAAmB,CAAC,eAAc;QACrE,OAAO,gMAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,KAAK,QAAQ,GAAG;IACzD;IAEA,OAAO,gMAAY,CAAC,IAAI;AAC5B"}}]
+}

@@ -1,0 +1,9 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/contatos/page": "/contatos",
+  "/page": "/",
+  "/posts_back/[id]/page": "/posts_back/[id]",
+  "/posts_back/page": "/posts_back",
+  "/posts_front/page": "/posts_front"
+}

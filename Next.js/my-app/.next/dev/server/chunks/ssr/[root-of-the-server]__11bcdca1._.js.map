@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///home/leo/Estudos/Next.js/my-app/app/posts_front/page.tsx"],"sourcesContent":["export default function Posts_front(){\n    return(\n        <>\n            <h1 className=\"text-center mt-5 mb-5 font-bold text-3xl\">Página Client</h1>\n\n            <div className=\"flex flex-col gap-4 mx-2\">\n\n            </div>\n        </>\n    )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACpB,qBACI;;0BACI,8OAAC;gBAAG,WAAU;0BAA2C;;;;;;0BAEzD,8OAAC;gBAAI,WAAU;;;;;;;;AAK3B"}}]
+}

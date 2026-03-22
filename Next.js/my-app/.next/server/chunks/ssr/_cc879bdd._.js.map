@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/contatos/page.tsx"],"sourcesContent":["export default function Contatos() {\n  return(\n    <>\n      <h1>Contatos!</h1>\n    </>\n  )\n}"],"names":[],"mappings":"6LAAe,SAAS,IACtB,MACE,CAAA,EAAA,EAAA,GAAA,EAAA,EAAA,QAAA,CAAA,UACE,CAAA,EAAA,EAAA,GAAA,EAAC,KAAA,UAAG,eAGV"}

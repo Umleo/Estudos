@@ -1,0 +1,3 @@
+module.exports=[70864,a=>{a.n(a.i(33290))},2894,a=>{a.n(a.i(66188))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},13658,a=>{"use strict";var b=a.i(7997),c=a.i(717);async function d({id:a}){let c=await fetch(`https://dummyjson.com/posts/${a}`),d=await c.json();return(0,b.jsxs)("div",{children:[(0,b.jsx)("h1",{children:d.title}),(0,b.jsx)("h1",{children:d.body})]})}async function e({params:a}){let{id:e}=await a;return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)("h1",{className:"text-center text-4xl font-bold",children:"Info do Post"}),(0,b.jsx)(c.Suspense,{fallback:(0,b.jsx)("p",{children:"Carregando..."}),children:(0,b.jsx)(d,{id:e})})]})}a.s(["default",()=>e],13658)}];
+
+//# sourceMappingURL=_515671ef._.js.map

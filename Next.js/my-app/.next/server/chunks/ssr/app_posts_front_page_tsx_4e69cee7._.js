@@ -1,0 +1,3 @@
+module.exports=[79315,a=>{"use strict";var b=a.i(87924),c=a.i(72131);function d(){let[a,d]=(0,c.useState)([]);return(0,c.useEffect)(()=>{fetch("https://dummyjson.com/posts").then(a=>a.json()).then(a=>d(a.posts))},[]),(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)("h1",{className:"text-center mt-5 mb-5 font-bold text-3xl",children:"Página Client"}),(0,b.jsx)("div",{className:"flex flex-col gap-4 mx-2",children:(0,b.jsx)("div",{className:"flex flex-col gap-4 mx-2",children:a.map(a=>(0,b.jsxs)("div",{className:"bg-gray-300 p-4 rounded-md",children:[(0,b.jsx)("h2",{className:"font-bold text-gray-800",children:a.title}),(0,b.jsx)("p",{children:a.body})]},a.id))})})]})}a.s(["default",()=>d])}];
+
+//# sourceMappingURL=app_posts_front_page_tsx_4e69cee7._.js.map

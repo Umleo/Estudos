@@ -1,0 +1,35 @@
+{
+  "node": {
+    "001dde16070e6c21e042a96a225539c6eedf807e93": {
+      "workers": {
+        "app/posts_back/page": {
+          "moduleId": "[project]/.next-internal/server/app/posts_back/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/posts_back/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_0",
+          "filename": "app/posts_back/page.tsx"
+        }
+      },
+      "layer": {
+        "app/posts_back/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_0",
+      "filename": "app/posts_back/page.tsx"
+    },
+    "4048492486a64ab0eb4b647d67b3325a6633145f65": {
+      "workers": {
+        "app/posts_back/page": {
+          "moduleId": "[project]/.next-internal/server/app/posts_back/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/posts_back/page.tsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "$$RSC_SERVER_ACTION_1",
+          "filename": "app/posts_back/page.tsx"
+        }
+      },
+      "layer": {
+        "app/posts_back/page": "rsc"
+      },
+      "exportedName": "$$RSC_SERVER_ACTION_1",
+      "filename": "app/posts_back/page.tsx"
+    }
+  },
+  "edge": {}
+}
